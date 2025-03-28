@@ -9,10 +9,8 @@ import type React from "react"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ave Maria - Media Services for Churches",
-  description:
-    "Ave Maria provides free professional media services to churches, helping them spread their message through high-quality content.",
-    generator: 'v0.dev'
+  title: "Ave Maria",
+  description: "Professional media services for churches and religious organizations",
 }
 
 export default function RootLayout({
@@ -23,7 +21,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           {children}
           <ScrollToTop />
           <Toaster />
