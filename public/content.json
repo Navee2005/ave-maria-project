@@ -1,0 +1,375 @@
+{
+  "global": {
+    "colors": {
+      "primary": "#2563eb",
+      "secondary": "#f3f4f6",
+      "accent": "#3b82f6",
+      "text": {
+        "light": "#1f2937",
+        "dark": "#f9fafb",
+        "muted": "#6b7280"
+      },
+      "background": {
+        "light": "#ffffff",
+        "dark": "#111827"
+      }
+    },
+    "fonts": {
+      "heading": "Inter, sans-serif",
+      "body": "Inter, sans-serif"
+    }
+  },
+  "hero": {
+    "heading1": "Spreading Faith Through Media",
+    "heading1Color": "#ffffff",
+    "heading2": "Ave Maria Media Services",
+    "heading2Color": "#4287f5",
+    "description": "We provide free professional media services to churches, helping them spread their message through high-quality content.",
+    "descriptionColor": "#ffffff",
+    "backgroundImage": "/images/hero-worship.png",
+    "overlayOpacity": 0.6,
+    "textColor": "#ffffff",
+    "primaryButton": {
+      "text": "Our Services",
+      "url": "#services",
+      "backgroundColor": "#2563eb",
+      "textColor": "#ffffff",
+      "hoverBackgroundColor": "#1d4ed8"
+    },
+    "secondaryButton": {
+      "text": "Get in touch",
+      "url": "#contact",
+      "backgroundColor": "#ffffff",
+      "textColor": "#2563eb",
+      "hoverBackgroundColor": "#f9fafb"
+    }
+  },
+  "services": {
+    "heading": "Our Services",
+    "headingColor": "",
+    "subheading": "Professional Media Services for Churches",
+    "subheadingColor": "",
+    "description": "We offer a wide range of media services to help churches effectively communicate their message.",
+    "descriptionColor": "",
+    "backgroundColor": "",
+    "items": [
+      {
+        "title": "Video Production",
+        "description": "Professional video recording and editing for sermons, events, and promotional content.",
+        "icon": "Video",
+        "backgroundColor": "",
+        "textColor": "",
+        "iconColor": ""
+      },
+      {
+        "title": "Photography",
+        "description": "High-quality photography for church events, portraits, and promotional materials.",
+        "icon": "Camera",
+        "backgroundColor": "",
+        "textColor": "",
+        "iconColor": ""
+      },
+      {
+        "title": "Audio Production",
+        "description": "Professional audio recording and mixing for sermons, worship music, and podcasts.",
+        "icon": "Music",
+        "backgroundColor": "",
+        "textColor": "",
+        "iconColor": ""
+      },
+      {
+        "title": "Content Creation",
+        "description": "Engaging content for social media, websites, and other digital platforms.",
+        "icon": "Edit",
+        "backgroundColor": "",
+        "textColor": "",
+        "iconColor": ""
+      }
+    ]
+  },
+  "portfolio": {
+    "heading": "Our Projects",
+    "headingColor": "",
+    "subheading": "A selection of our recent work for churches and religious organizations",
+    "subheadingColor": "",
+    "backgroundColor": "",
+    "items": [
+      {
+        "title": "St. Mary's Easter Service",
+        "category": "Video Production",
+        "image": "/placeholder.svg?height=600&width=800",
+        "description": "Full video production for St. Mary's Easter service, including multi-camera setup and professional editing."
+      },
+      {
+        "title": "Grace Community Church Website",
+        "category": "Web Development",
+        "image": "/placeholder.svg?height=600&width=800",
+        "description": "Modern, responsive website design for Grace Community Church with online giving integration."
+      },
+      {
+        "title": "Faith Baptist Social Media Campaign",
+        "category": "Graphic Design",
+        "image": "/placeholder.svg?height=600&width=800",
+        "description": "Comprehensive social media graphics package for Faith Baptist's outreach campaign."
+      },
+      {
+        "title": "Holy Trinity Church Event Photography",
+        "category": "Photography",
+        "image": "/placeholder.svg?height=600&width=800",
+        "description": "Event photography for Holy Trinity Church's annual community festival."
+      }
+    ]
+  },
+  "about": {
+    "heading": "About Ave Maria",
+    "headingColor": "",
+    "subheading": "Our Mission and Vision",
+    "subheadingColor": "",
+    "story": "Ave Maria was founded in 2015 with a vision to serve churches through media. What began as a small volunteer effort has grown into a dedicated team of professionals committed to helping churches communicate effectively.",
+    "storyColor": "",
+    "mission": "Our mission is to empower churches with professional media services, enabling them to share their message clearly and beautifully without the burden of high costs.",
+    "missionColor": "",
+    "backgroundColor": "",
+    "image": "/placeholder.svg?height=800&width=1200",
+    "values": [
+      {
+        "title": "Faith-Centered",
+        "description": "We operate with Christian values at the core of everything we do."
+      },
+      {
+        "title": "Excellence",
+        "description": "We provide the highest quality media services to honor God and serve churches well."
+      },
+      {
+        "title": "Accessibility",
+        "description": "We believe all churches should have access to professional media regardless of their budget."
+      },
+      {
+        "title": "Partnership",
+        "description": "We work alongside churches as partners in ministry, not just service providers."
+      }
+    ]
+  },
+  "team": {
+    "heading": "Our Team",
+    "headingColor": "",
+    "subheading": "Meet the People Behind Ave Maria",
+    "subheadingColor": "",
+    "description": "Our talented team of media professionals dedicated to serving churches",
+    "descriptionColor": "",
+    "backgroundColor": "",
+    "members": [
+      {
+        "name": "Michael Johnson",
+        "role": "Founder & Director",
+        "image": "/placeholder.svg?height=400&width=400",
+        "bio": "Michael founded Ave Maria with a passion for helping churches communicate effectively through media."
+      },
+      {
+        "name": "Sarah Williams",
+        "role": "Lead Videographer",
+        "image": "/placeholder.svg?height=400&width=400",
+        "bio": "Sarah brings 10 years of professional videography experience to our church partners."
+      },
+      {
+        "name": "David Chen",
+        "role": "Web Developer",
+        "image": "/placeholder.svg?height=400&width=400",
+        "bio": "David creates beautiful, functional websites that help churches connect with their communities."
+      },
+      {
+        "name": "Rebecca Martinez",
+        "role": "Graphic Designer",
+        "image": "/placeholder.svg?height=400&width=400",
+        "bio": "Rebecca's eye for design helps churches communicate their message visually with impact."
+      }
+    ]
+  },
+  "donate": {
+    "heading": "Support Our Ministry",
+    "headingColor": "",
+    "subheading": "Help Us Serve More Churches",
+    "subheadingColor": "",
+    "description": "Your generous donations allow us to continue providing free media services to churches in need.",
+    "descriptionColor": "",
+    "backgroundColor": "",
+    "options": [
+      {
+        "amount": 25,
+        "description": "Provides one hour of video editing for a church"
+      },
+      {
+        "amount": 50,
+        "description": "Sponsors a social media graphics package for a church"
+      },
+      {
+        "amount": 100,
+        "description": "Funds a full day of on-site photography for a church event"
+      },
+      {
+        "amount": 500,
+        "description": "Sponsors a complete website for a small church"
+      }
+    ],
+    "impactStats": [
+      {
+        "number": "50+",
+        "label": "Churches Served"
+      },
+      {
+        "number": "200+",
+        "label": "Projects Completed"
+      },
+      {
+        "number": "$100K+",
+        "label": "Value of Services Donated"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Contact Us",
+    "headingColor": "",
+    "subheading": "Get in Touch",
+    "subheadingColor": "",
+    "description": "Have a question or interested in our services? We'd love to hear from you.",
+    "descriptionColor": "",
+    "backgroundColor": "",
+    "contactInfo": [
+      {
+        "label": "Email",
+        "value": "info@avemariamedia.org",
+        "icon": "Mail"
+      },
+      {
+        "label": "Phone",
+        "value": "(555) 123-4567",
+        "icon": "Phone"
+      },
+      {
+        "label": "Address",
+        "value": "123 Faith Street, Anytown, USA 12345",
+        "icon": "MapPin"
+      }
+    ],
+    "officeHours": [
+      {
+        "days": "Monday - Friday",
+        "hours": "9:00 AM - 5:00 PM"
+      },
+      {
+        "days": "Saturday - Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are your services really free?",
+        "answer": "Yes! Thanks to our donors and volunteers, we provide our core services at no cost to qualifying churches."
+      },
+      {
+        "question": "How do we request your services?",
+        "answer": "Simply fill out the contact form on this page, and we'll get back to you within 48 hours to discuss your needs."
+      },
+      {
+        "question": "How far in advance should we book your services?",
+        "answer": "We recommend contacting us at least 4-6 weeks before your project deadline to ensure availability."
+      }
+    ]
+  },
+  "header": {
+    "logo": {
+      "text": "Ave Maria",
+      "url": "/",
+      "color": "#2563eb"
+    },
+    "backgroundColor": "",
+    "textColor": "",
+    "menuItems": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Services",
+        "url": "#services"
+      },
+      {
+        "label": "Portfolio",
+        "url": "#portfolio"
+      },
+      {
+        "label": "About",
+        "url": "#about"
+      },
+      {
+        "label": "Team",
+        "url": "#team"
+      },
+      {
+        "label": "Donate",
+        "url": "#donate"
+      },
+      {
+        "label": "Contact",
+        "url": "#contact"
+      }
+    ]
+  },
+  "footer": {
+    "logo": "Ave Maria Media Services",
+    "logoColor": "",
+    "tagline": "Spreading Faith Through Media",
+    "taglineColor": "",
+    "address": "123 Faith Street, Anytown, USA 12345",
+    "phone": "(555) 123-4567",
+    "email": "info@avemariamedia.org",
+    "backgroundColor": "",
+    "textColor": "",
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "url": "#",
+        "icon": "Facebook"
+      },
+      {
+        "platform": "Instagram",
+        "url": "#",
+        "icon": "Instagram"
+      },
+      {
+        "platform": "Twitter",
+        "url": "#",
+        "icon": "Twitter"
+      },
+      {
+        "platform": "YouTube",
+        "url": "#",
+        "icon": "Youtube"
+      }
+    ],
+    "quickLinks": [
+      {
+        "label": "Services",
+        "url": "#services"
+      },
+      {
+        "label": "Portfolio",
+        "url": "#portfolio"
+      },
+      {
+        "label": "About Us",
+        "url": "#about"
+      },
+      {
+        "label": "Donate",
+        "url": "#donate"
+      },
+      {
+        "label": "Contact",
+        "url": "#contact"
+      }
+    ],
+    "copyright": "© 2023 Ave Maria Media Services. All rights reserved."
+  }
+}
+
