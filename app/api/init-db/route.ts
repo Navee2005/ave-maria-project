@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server"
 import { createClient } from "@supabase/supabase-js"
 
-// Initialize Supabase client with service role key for admin access
+// Initialize Supabase client with anon key
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || ""
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || ""
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ""
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 // Initial content data for your website
@@ -165,46 +165,8 @@ const initialContent = [
   },
 ]
 
-// Function to create the content table if it doesn't exist
-async function ensureContentTableExists() {
-  // Check if the content table exists
-  const { error } = await supabase.from("content").select("id").limit(1)
-
-  if (error && error.code === "42P01") {
-    // Table doesn't exist error code
-    // Create the content table
-    const createTableQuery = `
-      CREATE TABLE content (
-        id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-        section VARCHAR NOT NULL UNIQUE,
-        content JSONB NOT NULL,
-        created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-        updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-      );
-      
-      CREATE INDEX idx_content_section ON content(section);
-    `
-
-    const { error: createError } = await supabase.rpc("exec", { query: createTableQuery })
-    if (createError) {
-      console.error("Error creating content table:", createError)
-      return false
-    }
-
-    return true
-  }
-
-  return true
-}
-
 export async function GET() {
   try {
-    // Ensure the content table exists
-    const tableExists = await ensureContentTableExists()
-    if (!tableExists) {
-      return NextResponse.json({ success: false, error: "Failed to create content table" }, { status: 500 })
-    }
-
     // Initialize content for each section
     const results = []
 
@@ -225,8 +187,6 @@ export async function GET() {
         })
         continue
       }
-
-      let result
 
       if (existingData) {
         // Update existing content
@@ -274,7 +234,7 @@ export async function GET() {
     return NextResponse.json(
       {
         success: true,
-        message: "Database initialization completed",
+        message: "Content initialization completed",
         results,
       },
       { status: 200 },
